@@ -21,7 +21,11 @@ fun main() {
 
 fun Application.module() {
     install(ContentNegotiation) {
-        json()
+        json(
+            Json {
+                namingStrategy = JsonNamingStrategy.SnakeCase
+            },
+        )
     }
     install(Koin) {
         slf4jLogger()
