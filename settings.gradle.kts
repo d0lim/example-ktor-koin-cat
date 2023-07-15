@@ -1,1 +1,1 @@
-rootProject.name = "leg3nd-pillar"
+rootProject.name = "example-ktor-koin-hexagonal-cat"
